@@ -1,15 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
-a{
+
+a {
     color: #1d1912;
     text-decoration: none;
 }
 
-.grid{
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 150px 1fr 150px;
@@ -20,30 +21,13 @@ a{
 }
 
 
-/* .grid {
-    display: grid;
-    gap: 10px;
-
-
-
-    grid-template-areas:    
-    "header header header"
-    "main main main"
-    "footer footer footer"
-    ;
-
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-template-rows: 0.5fr 5fr 0.5fr;
-
-} */
-
-.header{
+.header {
     grid-area: header;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     font-family: 'Rubik Mono One', sans-serif;
 
-    width:100%;
+    width: 100%;
     height: 150px;
 
     background-color: #2d3937;
@@ -53,13 +37,15 @@ a{
 
 }
 
-.header__logo{
+.header__logo {
     display: flex;
     align-items: center;
+    animation-name: animacionLogo;
+    animation-duration: 3s;
     margin: 10px;
 }
 
-.header__logo img{
+.header__logo img {
     width: 120px;
     background-color: #99a88c;
     border: solid 3px #1d1912;
@@ -67,18 +53,18 @@ a{
 }
 
 
-.header__nav{
+.header__nav {
     display: flex;
     align-items: center;
 }
 
-.header__list{
+.header__list {
     display: flex;
     list-style: none;
-    
+
 }
 
-.header__item{
+.header__item {
     display: flex;
     align-items: center;
     list-style: none;
@@ -91,7 +77,7 @@ a{
 
 
 
-.main{
+.main {
 
     grid-area: main;
     min-height: calc(100vh - 300px);
@@ -107,18 +93,18 @@ a{
 
 }
 
-.main__titulo{
+.main__titulo {
     padding: 15px;
     border: solid 3px #1d1912;
     border-radius: 3px;
     background-color: #5a6e60;
-    color:#1d1912;
+    color: #1d1912;
     margin-bottom: 1rem;
-    
+
 }
 
 
-.main__imagen{
+.main__imagen {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,28 +113,29 @@ a{
     border: solid 3px #1d1912;
     border-radius: 10px;
 }
-.main__imagen img{
+
+.main__imagen img {
     overflow: hidden;
     border-radius: 10px;
-} 
+}
 
 
-.main__lista{
+.main__lista {
     text-align: center;
 }
 
-.main__promo{
+.main__promo {
     display: inline-block;
     border: solid 3px #1d1912;
     border-radius: 10px;
-    
+
     background-color: #2d3937;
     padding: 15px;
     width: 350px;
     height: 600px;
 }
 
-.main__promo--modificacion{
+.main__promo--modificacion {
     display: inline-block;
     border: solid 3px #1d1912;
     border-radius: 10px;
@@ -159,18 +146,18 @@ a{
 }
 
 
-.main__subtitulo{
-        display: flex;
-        justify-content: center;
-        margin-bottom:10px;
-        padding: 15px;
-        border: solid 3px #1d1912;
-        border-radius: 10px;
-        background-color: #5a6e60;
-        color: #1d1912;
+.main__subtitulo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: solid 3px #1d1912;
+    border-radius: 10px;
+    background-color: #5a6e60;
+    color: #1d1912;
 }
 
-.main__parrafo{
+.main__parrafo {
     color: #1d1912;
     background-color: #5a6e60;
     margin-bottom: 1rem;
@@ -181,7 +168,7 @@ a{
     line-height: 15px;
 }
 
-.main__parrafo--modificacion{
+.main__parrafo--modificacion {
     color: #1d1912;
     background-color: #5a6e60;
     padding: 15px 80px;
@@ -192,7 +179,7 @@ a{
     line-height: 15px;
 }
 
-.main__promo--modificacion h3{
+.main__promo--modificacion h3 {
     display: inline-block;
     background-color: #efb1a9;
     margin: 0px;
@@ -202,13 +189,13 @@ a{
 }
 
 
-.main__galeria{
+.main__galeria {
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
 }
 
-.main__video{
+.main__video {
     display: flex;
     flex-direction: column;
     border: solid 3px #1d1912;
@@ -220,23 +207,25 @@ a{
     border: 1;
     border: solid 3px #1d1912;
 }
-.main__video iframe{
+
+.main__video iframe {
     width: 450px;
     border-radius: 10px;
 }
 
 
-.main__formulario{
+.main__formulario {
     text-align: center;
 }
-.main__contenido form{
+
+.main__contenido form {
     display: inline-block;
     background-color: #2d3937;
     border: solid 3px #1d1912;
     border-radius: 10px;
     padding: 20px;
-    
-    font-size:2rem;
+
+    font-size: 2rem;
     line-height: 50px;
     text-align: start;
 }
@@ -244,7 +233,7 @@ a{
 
 
 
-.main__item input{
+.main__item input {
     font-size: 2rem;
     background-color: #5a6e60;
     padding: 0px 10px;
@@ -252,7 +241,7 @@ a{
     border-radius: 10px;
 }
 
-.main__item textarea{
+.main__item textarea {
     background-color: #5a6e60;
     border: solid 3px #1d1912;
     border-radius: 10px;
@@ -263,20 +252,16 @@ a{
     width: 100%;
 }
 
-.main__item button{
+.main__item button {
     background-color: #5a6e60;
     border: solid 3px #1d1912;
     border-radius: 10px;
     padding: 15px 20px;
     font-size: 30px;
-    color:#1d1912;
+    color: #1d1912;
 }
 
-
-
-
-
-.footer{
+.footer {
 
     grid-area: footer;
     display: flex;
@@ -286,58 +271,49 @@ a{
     height: 150px;
 
 
-    justify-content:space-evenly;
-    
+    justify-content: space-evenly;
+
     font-family: 'Rubik Mono One', sans-serif;
     background-color: #efb1a9;
     text-align: center;
     padding: 60px 100px;
 }
 
-
-
-/* .footer__redes{
-    display: block;
-    border: solid 3px #1d1912;
-}
-
-.footer__derechos{
-    display: block;
-    border: solid 3px #1d1912;
-} */
-
-@media screen and (max-width: 900px) {
-
-    .header {
-        display: flex;
-        width: 900px;
-        height: 150px;
-        justify-content: center;
-        align-content: center;
-    }
-
-    .header__nav {
-        display: none;
-    }
-
-
-}
-
-@media screen and (max-width: 500px){
-
-    .header{
-        display: flex;
-        width: 500px;
-        height: 150px;
-        justify-content: center;
-        align-content: center;
-    }
-    
-   .header__nav{
-       display: none;
-   }
-
-
+.footer__redes img:hover {
+    animation-name: animacionRedes;
+    animation-duration: 3s;
+    transform: scale(1.03);
 }
 
 
+
+.header__logo:hover {
+    transform: scale(1.03);
+}
+
+.header__item:hover {
+    background: #efb1a9;
+    transform: scale(1.03);
+}
+
+@keyframes animacionLogo {
+
+    from {
+        transform: translateX(-100px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes animacionRedes {
+
+    from {
+        transform: translateY(-3px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
