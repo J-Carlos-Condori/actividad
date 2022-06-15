@@ -17,76 +17,105 @@
 </head>
 
 <body>
-    <div class="row">
-        <div class="col">
-            <header class="header">
-                <div class="header__logo">
-                    <a href="index.html"><img src="assets/logo.png" alt="aca va el logo"></a>
-                </div>
-                <nav class="header__nav">
-                    <ul class="header__list">
-                        <li class="header__item"><a href="index.html">INICIO</a></li>
-                        <li class="header__item"><a href="./views/cafes.html">CAFES</a></li>
-                        <li class="header__item"><a href="./views/promociones.html">PROMOCIONES</a></li>
-                        <li class="header__item"><a href="./views/videos.html">VIDEOS</a></li>
-                        <li class="header__item"><a href="./views/quienes.html">QUIENES SOMOS</a></li>
-                        <li class="header__item"><a href="./views/contactanos.html">CONTACTANOS</a></li>
+    <header class="header">
+        <nav class="navbar navbar-expand-xl">
+    
+            <div class="container">
+                <a href="index.html" class="navbar-brand ms-3 logo"><img src="./assets/logo.png" alt="aca va el logo"
+                        height="100px"></a>
+    
+                <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div id="menu" class="collapse navbar-collapse menu__res">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5" href="index.html">INICIO</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5" href="./views/cafes.html">CAFES</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5"
+                                href="./views/promociones.html">PROMOCIONES</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5" href="./views/videos.html">VIDEOS</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5" href="./views/quienes.html">QUIENES SOMOS</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5"
+                                href="./views/contactanos.html">CONTACTANOS</a></li>
                     </ul>
-                </nav>
-            </header>
-
-        </div>
-    </div>
+                </div>
+            </div>
+    
+        </nav>
+    </header>
 
     
-    <div class="row">
-        <div class="col">
-
-            <main class="main">
-        
-                <h1 class="main__titulo">Cafeteria</h1>
-                <p class="main__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eligendi ducimus error qui laboriosam non
-                    earum?
-                    Corrupti alias temporibus veritatis quisquam, fugit dignissimos neque blanditiis esse fuga magnam suscipit
-                    iste.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eligendi ducimus error qui laboriosam non
-                    earum?
-                    Corrupti alias temporibus veritatis quisquam, fugit dignissimos neque blanditiis esse fuga magnam suscipit
-                    iste.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eligendi ducimus error qui laboriosam non
-                    earum?
-                    Corrupti alias temporibus veritatis quisquam, fugit dignissimos neque blanditiis esse fuga magnam suscipit
-                    iste.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eligendi ducimus error qui laboriosam non
-                    earum?
-                    Corrupti alias temporibus veritatis quisquam, fugit dignissimos neque blanditiis esse fuga magnam suscipit
-                    iste.
-                    <div class="main__imagen">
-                        <img src="./assets/imagen_principal.png" alt="imagen_principal">
-                    </div>
-                </p>
-            </main>
-
-
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col">
-            <footer class="footer">
-            
-                <div class="footer__redes">
-                    <img src="assets/icon_html5.png" alt="icon_html">
-                    <img src="assets/icon_whatsapp.png" alt="icon_wts">
-                    <img src="assets/icon_instagram.png" alt="icon_inst">
+    <main class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <h1 class="main__titulos text-center">Cafeteria</h1>
                 </div>
-        
-                <br>
-                <span>©Mi-Pagina 2022-Ꝏ <b>DERECHOS RESERVADOS MI-PAGINA</b><a href="./views/quienes.html"> QUIENES SOMOS</a></span>
-            </footer>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="main__parrafos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eligendi ducimus error qui laboriosam non
+                    earum?
+                    Corrupti alias temporibus veritatis quisquam, fugit dignissimos neque blanditiis esse fuga magnam suscipit
+                    iste.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eligendi ducimus error qui laboriosam non
+                    earum?
+                    Corrupti alias temporibus veritatis quisquam, fugit dignissimos neque blanditiis esse fuga magnam suscipit
+                    iste.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eligendi ducimus error qui laboriosam non
+                    earum?
+                    Corrupti alias temporibus veritatis quisquam, fugit dignissimos neque blanditiis esse fuga magnam suscipit
+                    iste.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eligendi ducimus error qui laboriosam non
+                    earum?
+                    Corrupti alias temporibus veritatis quisquam, fugit dignissimos neque blanditiis esse fuga magnam suscipit
+                    iste.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/imagen_principal.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/imagen_principal2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/imagen_principal3.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
         </div>
-    </div>
+    </main>
+
+
+    <footer class="footers">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 mb2">
+                    <div class="footer__redes">
+                        <img src="./assets/icon_html5.png" alt="icon_html">
+                        <img src="./assets/icon_whatsapp.png" alt="icon_wts">
+                        <img src="./assets/icon_instagram.png" alt="icon_inst">
+                    </div>
+                </div>
+    
+                <div class="col-12 mb2">
+                    <h4>
+                        <span>©Mi-Pagina 2022-Ꝏ <b>DERECHOS RESERVADOS MI-PAGINA</b><a href="./views/quienes.html"> QUIENES
+                                SOMOS</a></span>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 

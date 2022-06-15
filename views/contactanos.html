@@ -16,79 +16,96 @@
 </head>
 <body>
     
-    <div class="row">
-        <div class="col">
-            <header class="header">
-                <div class="header__logo">
-                    <a href="../index.html"><img src="../assets/logo.png" alt="aca va el logo"></a>
-            
-                </div>
-                <nav class="header__nav">
-                    <ul class="header__list">
-                        <li class="header__item"><a href="../index.html">INICIO</a></li>
-                        <li class="header__item"><a href="cafes.html">CAFES</a></li>
-                        <li class="header__item"><a href="promociones.html">PROMOCIONES</a></li>
-                        <li class="header__item"><a href="videos.html">VIDEOS</a></li>
-                        <li class="header__item"><a href="quienes.html">QUIENES SOMOS</a></li>
-                        <li class="header__item"><a href="contactanos.html">CONTACTANOS</a></li>
+    <header class="header">
+        <nav class="navbar navbar-expand-xl">
+    
+            <div class="container">
+                <a href="../index.html" class="navbar-brand ms-3 logo"><img src="../assets/logo.png" alt="aca va el logo"
+                        height="100px"></a>
+    
+                <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div id="menu" class="collapse navbar-collapse menu__res">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5" href="../index.html">INICIO</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5" href="cafes.html">CAFES</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5"
+                                href="promociones.html">PROMOCIONES</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5" href="videos.html">VIDEOS</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5" href="quienes.html">QUIENES SOMOS</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5"
+                                href="contactanos.html">CONTACTANOS</a></li>
                     </ul>
-                </nav>
-            </header>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+
+    <main class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <h1 class="main__titulos text-center">Contacto</h1>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <main class="main">
-                <h1 class="main__titulo">Contactanos</h1>
-                <div class="main__formulario">
-                    <div class="main__contenido">
-                        <form action="" method="get" enctype="text/plain">
-                            <div class="main__item">
-                                <label for="userName">Nombre </label>
-                                <input type="text" id="userName" name="userName" placeholder="Coloque su Nombre">
-            
-                                <label for="userLastName">Apellido </label>
-                                <input type="text" id="userLastName" name="userLastName" placeholder="Coloque su Apellido">
-                            </div>
-                            <div class="main__item">
-            
-                                <label for="mail">Mail </label>
-                                <input type="email" id="mail" name="mail" placeholder="ejemplo@correo.com">
-                                <br>
-                            </div>
-            
-                            <div class="main__item">
-                                <label for="comments">Comentarios :</label>
-                                <br>
-                                <textarea name="" id="" cols="65" rows="15"></textarea>
-            
-                            </div>
-                            <div class="main__item">
-                                <button class="formulario__boton" type="submit">Enviar</button>
-                                <br>
-                            </div>
-                        </form>
+        
+        <div class="container">
+            <form class="row g-3" action="" method="get" enctype="text/plain">
+                <div class="col-md-6">
+                    <label for="userName" class="form-label">Nombre </label>
+                    <input type="text" id="userName" class ="form-control"name="userName" placeholder="Coloque su Nombre">
+                </div>
+                <div class="col-md-6">
+                    <label for="userLastName" class="form-label">Apellido </label>
+                    <input type="text" id="userLastName" class ="form-control"name="userLastName" placeholder="Coloque su Apellido">
+                </div>
+
+                <div class="col-md-12">
+                    <label for="mail" class="form-label">Mail </label>
+                    <input type="email" id="mail" class="form-control"name="mail" placeholder="ejemplo@correo.com">
+                </div>
+                
+                <div class="col-md-12">
+                    <label for="comments" class="form-label">Comentarios :</label>
+                    <br>
+                    <textarea name="" id="" class="form-control" cols="65" rows="8"></textarea>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="inner-buton">
+                        <button class="btn btn-lg btn-secondary" type="submit">ENVIAR</button>
                     </div>
-            
                 </div>
-            </main>
+            </form>
         </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <footer class="footer">
-            
-                <div class="footer__redes">
-                    <img src="../assets/icon_html5.png" alt="icon_html">
-                    <img src="../assets/icon_whatsapp.png" alt="icon_wts">
-                    <img src="../assets/icon_instagram.png" alt="icon_inst">
+    </main>
+
+    
+    <footer class="footers">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 mb2">
+                    <div class="footer__redes">
+                        <img src="../assets/icon_html5.png" alt="icon_html">
+                        <img src="../assets/icon_whatsapp.png" alt="icon_wts">
+                        <img src="../assets/icon_instagram.png" alt="icon_inst">
+                    </div>
                 </div>
-            
-                <br>
-                <span>©Mi-Pagina 2022-Ꝏ <b>DERECHOS RESERVADOS MI-PAGINA</b><a href="quienes.html"> QUIENES SOMOS</a></span>
-            </footer>
+    
+                <div class="col-12 mb2">
+                    <h4>
+                        <span>©Mi-Pagina 2022-Ꝏ <b>DERECHOS RESERVADOS MI-PAGINA</b><a href="quienes.html"> QUIENES
+                                SOMOS</a></span>
+                    </h4>
+                </div>
+            </div>
         </div>
-    </div>
+    </footer>
         
         
         

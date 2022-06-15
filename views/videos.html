@@ -14,28 +14,153 @@
     <link rel="stylesheet" href="../styles/estilos.css">
 </head>
 <body>
+    <header class="header">
+        <nav class="navbar navbar-expand-xl">
 
-    <div class="row">
-        <div class="col">
-            <header class="header">
-                <div class="header__logo">
-                    <a href="../index.html"><img src="../assets/logo.png" alt="aca va el logo"></a>
-            
-                </div>
-                <nav class="header__nav">
-                    <ul class="header__list">
-                        <li class="header__item"><a href="../index.html">INICIO</a></li>
-                        <li class="header__item"><a href="cafes.html">CAFES</a></li>
-                        <li class="header__item"><a href="promociones.html">PROMOCIONES</a></li>
-                        <li class="header__item"><a href="videos.html">VIDEOS</a></li>
-                        <li class="header__item"><a href="quienes.html">QUIENES SOMOS</a></li>
-                        <li class="header__item"><a href="contactanos.html">CONTACTANOS</a></li>
+            <div class="container">
+                <a href="../index.html" class="navbar-brand ms-3 logo"><img src="../assets/logo.png" alt="aca va el logo"
+                        height="100px"></a>
+    
+                <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div id="menu" class="collapse navbar-collapse menu__res">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5" href="../index.html">INICIO</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5" href="cafes.html">CAFES</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5" href="promociones.html">PROMOCIONES</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5" href="videos.html">VIDEOS</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5" href="quienes.html">QUIENES SOMOS</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 text-center fs-5" href="contactanos.html">CONTACTANOS</a></li>
                     </ul>
-                </nav>
-            </header>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <h1 class="main__titulos text-center">VIDEOS</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="main__parrafos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, laborum totam ex assumenda itaque blanditiis fugiat in possimus, eaque dicta et omnis labore minus quasi necessitatibus autem nisi accusamus sit.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="inner">
+                        <h2 class="main__subtitulos text-center">Video 1</h2>
+                        <iframe height="315" src="https://www.youtube.com/embed/2v5iWf2KDCw" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="inner">
+                        <h2 class="main__subtitulos text-center">Video 2</h2>
+                        <iframe height="315" src="https://www.youtube.com/embed/MYPVQccHhAQ" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="inner">
+                        <h2 class="main__subtitulos text-center">Video 3</h2>
+                        <iframe height="315" src="https://www.youtube.com/embed/SORD03t7nlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="inner">
+                        <h2 class="main__subtitulos text-center">Video 4</h2>
+                        <iframe height="315" src="https://www.youtube.com/embed/2v5iWf2KDCw" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="inner">
+                        <h2 class="main__subtitulos text-center">Video 5</h2>
+                        <iframe height="315" src="https://www.youtube.com/embed/MYPVQccHhAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="inner">
+                        <h2 class="main__subtitulos text-center">Video 6</h2>
+                        <iframe height="315" src="https://www.youtube.com/embed/SORD03t7nlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="row">
+    </main>
+
+
+
+
+    <footer class="footers">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 mb2">
+                    <div class="footer__redes">
+                        <img src="../assets/icon_html5.png" alt="icon_html">
+                        <img src="../assets/icon_whatsapp.png" alt="icon_wts">
+                        <img src="../assets/icon_instagram.png" alt="icon_inst">
+                    </div>
+                </div>
+
+                <div class="col-12 mb2">
+                    <h4>
+                        <span>©Mi-Pagina 2022-Ꝏ <b>DERECHOS RESERVADOS MI-PAGINA</b><a href="quienes.html"> QUIENES SOMOS</a></span>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="header__logo">
+                        <a href="../index.html"><img src="../assets/logo.png" alt="aca va el logo"></a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__item"><a href="../index.html">INICIO</a></li>
+                            <li class="header__item"><a href="cafes.html">CAFES</a></li>
+                            <li class="header__item"><a href="promociones.html">PROMOCIONES</a></li>
+                            <li class="header__item"><a href="videos.html">VIDEOS</a></li>
+                            <li class="header__item"><a href="quienes.html">QUIENES SOMOS</a></li>
+                            <li class="header__item"><a href="contactanos.html">CONTACTANOS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> -->
+    <!-- <div class="row">
         <div class="col">
             <main class="main">
             
@@ -84,8 +209,8 @@
                 </div>
             </main>
         </div>
-    </div>
-    <div class="row">
+    </div> -->
+    <!-- <div class="row">
         <div class="col">
             <footer class="footer">
             
@@ -99,7 +224,7 @@
                 <span>©Mi-Pagina 2022-Ꝏ <b>DERECHOS RESERVADOS MI-PAGINA</b><a href="quienes.html"> QUIENES SOMOS</a></span>
             </footer>
         </div>
-    </div>
+    </div> -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
