@@ -1,0 +1,63 @@
+.header {
+    background-color: #2d3937;
+}
+
+.navbar{
+    padding: 0px;
+
+    &-nav {
+        font-family: 'Rubik Mono One', sans-serif;
+        
+    }
+    .nav-item a:hover {
+        color: #1d1912;
+        transform: scale(1.03);
+    }
+
+    .logo img {
+        background-color: #99a88c;
+        border: $borderColor;
+        border-radius: 90rem;
+    }
+
+    &-brand {
+        animation-name: animacionLogo;
+        animation-duration: 3s;
+    }
+
+    
+    .logo:hover {
+        transform: scale(1.03);
+    }
+    
+    .nav-item a:hover {
+        color: #efb1a9;
+        transform: scale(1.03);
+    }
+        
+    @keyframes animacionLogo {
+        from {
+            transform: translateX(-15px);
+        }
+        to{
+            transform: translateX(0px);
+        }
+    }
+
+    @media(max-width:1200px) {
+        .menu__res {
+            background-color: #efb1a9;
+        }
+    
+        .nav-item a {
+            border-bottom: $borderColor;
+        }
+    
+        .nav-item a:hover {
+            color: #1d1912;
+            transform: scale(1.03);
+        }
+    }
+}
+
+

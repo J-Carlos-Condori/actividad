@@ -1,0 +1,32 @@
+.footer {
+    font-family: 'Rubik Mono One', sans-serif;
+    padding: 2rem 0rem;
+    background-color: #efb1a9;
+
+    &__redes{
+        margin-bottom: 3rem;
+    }
+
+    &__redes img {
+        margin: 0rem 0.5rem;
+    }
+
+    &__redes img:hover {
+        animation-name: animacionRedes;
+        animation-duration: 3s;
+        transform: scale(1.03);
+    }
+
+
+    @keyframes animacionRedes {
+    
+        from {
+            transform: translateY(-3px);
+        }
+    
+        to {
+            transform: translateY(0px);
+        }
+    }
+
+}

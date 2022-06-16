@@ -130,7 +130,7 @@ a {
     color: #1d1912;
 }
 
-.main__parrafo {
+/* .main__parrafo {
     color: #1d1912;
     background-color: #5a6e60;
     margin-bottom: 1rem;
@@ -139,7 +139,7 @@ a {
     border-radius: 10px;
     font-size: 12px;
     line-height: 15px;
-}
+} */
 
 
 .main{
@@ -184,7 +184,7 @@ a {
     color: #1d1912;
 }
 
-.main__parrafos {
+.main__parrafo {
     color: #1d1912;
     background-color: #5a6e60;
     margin-bottom: 1rem;
@@ -270,7 +270,7 @@ a {
     transform: scale(1.03);
 }
 
-.footers{
+.footer{
     font-family: 'Rubik Mono One', sans-serif;
     padding: 2rem 0rem;
     background-color: #efb1a9;
