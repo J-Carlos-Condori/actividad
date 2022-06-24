@@ -1,0 +1,18 @@
+.inner {
+    background-color: map-get($colores, "bgColorHeader");
+    border: map-get($bordesEstilos, "border");
+    padding: 0px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+
+    & .main__subtitulos {
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            background-color: map-get($colores, "bgColorTexto");
+            color: map-get($colores, "colorFont");
+    }
+    & iframe {
+            width: 100%;
+    }
+}

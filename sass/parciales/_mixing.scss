@@ -1,0 +1,5 @@
+@mixin logo{
+    background-color: map-get($colores, "bgColorMain");
+    border: map-get($bordesEstilos, "border");
+    border-radius: 90rem;
+}
