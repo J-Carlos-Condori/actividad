@@ -1,33 +1,37 @@
 .main {
     min-height: calc(100vh - 300px);
     font-family: 'Rubik Mono One', sans-serif;
-    background-color: $bgColorMain;
+    background-color: map-get($colores,"bgColorMain");
 
     &__titulos {
         padding: 15px;
-        border: $borderColor;
+        border: map-get($bordesEstilos, "border");
         border-radius: 3px;
-        background-color: #5a6e60;
+        background-color: map-get($colores, "bgColorTexto");
         color: #1d1912;
         margin: 1rem 0rem;
     }
     &__parrafo {
+        background-color: map-get($colores,"bgColorTexto");
+        border: map-get($bordesEstilos, "border");
+        border-radius: 10px;
         color: #1d1912;
-        background-color: #5a6e60;
         margin-bottom: 1rem;
         padding: 15px 10px;
-        border: $borderColor;
-        border-radius: 10px;
         font-size: 12px;
         line-height: 15px;
     }
+    
+}
 
+.inner-button {
+    margin-bottom: 1rem;
 }
 
 .carousel{
     &-inner {
         padding: 0px;
-        border: $borderColor;
+        border: map-get($bordesEstilos,"border");
         border-radius: 10px;
         margin-bottom: 1rem;
     }

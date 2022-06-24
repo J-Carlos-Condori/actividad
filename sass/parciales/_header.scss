@@ -1,32 +1,23 @@
 .header {
-    background-color: #2d3937;
+    background-color: map-get($colores, "bgColorHeader");
 }
 
 .navbar{
     padding: 0px;
-
+    
     &-nav {
         font-family: 'Rubik Mono One', sans-serif;
         
     }
-    .nav-item a:hover {
-        color: #1d1912;
-        transform: scale(1.03);
+    .header__logo img {
+        @include logo;
     }
-
-    .logo img {
-        background-color: #99a88c;
-        border: $borderColor;
-        border-radius: 90rem;
-    }
-
+    
     &-brand {
         animation-name: animacionLogo;
         animation-duration: 3s;
     }
-
-    
-    .logo:hover {
+    .header__logo:hover {
         transform: scale(1.03);
     }
     
@@ -34,7 +25,7 @@
         color: #efb1a9;
         transform: scale(1.03);
     }
-        
+    
     @keyframes animacionLogo {
         from {
             transform: translateX(-15px);
@@ -43,16 +34,18 @@
             transform: translateX(0px);
         }
     }
-
+    
     @media(max-width:1200px) {
+        .header__logo img {
+            height:60px;
+            @include logo;
+        }
         .menu__res {
             background-color: #efb1a9;
         }
-    
         .nav-item a {
             border-bottom: $borderColor;
         }
-    
         .nav-item a:hover {
             color: #1d1912;
             transform: scale(1.03);

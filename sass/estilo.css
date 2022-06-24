@@ -24,11 +24,7 @@ a {
 .navbar-nav {
   font-family: "Rubik Mono One", sans-serif;
 }
-.navbar .nav-item a:hover {
-  color: #1d1912;
-  transform: scale(1.03);
-}
-.navbar .logo img {
+.navbar .header__logo img {
   background-color: #99a88c;
   border: solid 3px #1d1912;
   border-radius: 90rem;
@@ -39,7 +35,7 @@ a {
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
 }
-.navbar .logo:hover {
+.navbar .header__logo:hover {
   transform: scale(1.03);
 }
 .navbar .nav-item a:hover {
@@ -63,6 +59,12 @@ a {
   }
 }
 @media (max-width: 1200px) {
+  .navbar .header__logo img {
+    height: 60px;
+    background-color: #99a88c;
+    border: solid 3px #1d1912;
+    border-radius: 90rem;
+  }
   .navbar .menu__res {
     background-color: #efb1a9;
   }
@@ -73,6 +75,30 @@ a {
     color: #1d1912;
     transform: scale(1.03);
   }
+}
+
+.card {
+  background-color: #2d3937;
+  border: solid 3px #1d1912;
+  border-radius: 15px;
+  color: #0c0a08;
+  margin-bottom: 1rem;
+}
+.card .main__subtitulo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: solid 3px #1d1912;
+  border-radius: 10px;
+  background-color: #5a6e60;
+  color: #1d1912;
+}
+.card .card-body button {
+  border: solid 3px #1d1912;
+  border-radius: 50px;
+  color: #1d1912;
+  background-color: #efb1a9;
 }
 
 .main {
@@ -89,14 +115,18 @@ a {
   margin: 1rem 0rem;
 }
 .main__parrafo {
-  color: #1d1912;
   background-color: #5a6e60;
-  margin-bottom: 1rem;
-  padding: 15px 10px;
   border: solid 3px #1d1912;
   border-radius: 10px;
+  color: #1d1912;
+  margin-bottom: 1rem;
+  padding: 15px 10px;
   font-size: 12px;
   line-height: 15px;
+}
+
+.button {
+  margin-bottom: 1rem;
 }
 
 .carousel-inner {
@@ -104,6 +134,24 @@ a {
   border: solid 3px #1d1912;
   border-radius: 10px;
   margin-bottom: 1rem;
+}
+
+.inner {
+  background-color: #2d3937;
+  border: solid 3px #1d1912;
+  padding: 0px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.inner .main__subtitulos {
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #5a6e60;
+  color: #1d1912;
+}
+.inner iframe {
+  width: 100%;
 }
 
 .footer {

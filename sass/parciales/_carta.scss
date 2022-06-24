@@ -1,0 +1,22 @@
+.card {
+    background-color: map-get($colores, "bgColorHeader");
+    border: map-get($bordesEstilos, "border");
+    border-radius: 15px;
+    color: #0c0a08;
+    margin-bottom: 1rem;
+    
+    .main__subtitulo {
+        @extend .main__titulo;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .card-body button {
+        border: map-get($bordesEstilos, "border");
+        border-radius: 50px;
+        color: map-get($colores, "colorFont");
+        background-color: map-get($colores,"bgColorFooter");
+    }
+}
