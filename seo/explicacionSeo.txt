@@ -1,0 +1,59 @@
+acceso al archivo a google docs https://docs.google.com/document/d/1V47Vg1yy8R7DuZ03ZC7NnzqoVOwl2oP0-i9ysthkL-g/edit
+
+Cambios que aplique al utilizar SEO a mi proyecto
+
+En el archivo index.html
+Descripción: mediante la etiqueta meta name description agregue una descripcion del contenido de lo que se muestra en el index:
+"Pagina principal te mostramos nuestra cafeteria con una descripción"
+
+Palabras clave: Con la etiqueta meta name keywords agregue las palabras clave 
+“Principal, Cafeteria, Descripcion,Cafe”
+
+Encabezado: para el encabezado del utilicé el texto “cafeteria”
+
+En el archivo cafes.html
+Descripción: En esta seccion con la etiqueta meta agregue una descripcion del contenido de lo que se muestra en la seccion cafes
+"Pagina de cafes aqui te mostramos nuestros distintos tipos de cafes y como los preparamos"
+
+Palabras clave: En esta sección la etiqueta meta name keywords utilice las palabras clave
+“Cafes, Capuccino, Expresso, Latte”
+
+Encabezado: para el encabezado utilicé el texto “cafes”
+
+En el archivo promociones.html
+Descripción: En esta seccion con la etiqueta meta agregue una descripcion del contenido de lo que se muestra en la seccion promociones
+"Pagina de promociones aqui te mostramos nuestras opciones que puedes elegir de nuestro menu"
+
+Palabras clave: En esta sección la etiqueta meta name keywords utilice las palabras clave
+“PROMO, Promociones, menu”
+
+Encabezado: para el encabezado utilicé el texto  “promos”
+
+En el archivo videos.html
+Descripción:  En esta seccion con la etiqueta meta agregue una descripcion del contenido de lo que se muestra en la seccion videos
+"En esta pagina mostramos los distintos videos que realiza nuestro personal, como tambien la musica ambiental que utilizamos a diario"
+
+Palabras clave: En esta sección la etiqueta meta name keywords utilice las palabras clave
+“Videos, preparaciones, musica”
+
+Encabezado: para el encabezado utilicé el texto “videos”
+
+
+
+En el archivo quienes.html
+Descripción:  En esta seccion con la etiqueta meta agregue una descripcion del contenido de lo que se muestra en la seccion quienes
+"En esta pagina nos presentamos y contamos como surgio nuestra cafeteria"
+
+Palabras clave: En esta sección la etiqueta meta name keywords utilice las palabras clave
+“Quienes somos, descripcion, origenes, bases”
+
+Encabezado: para el encabezado utilicé el texto “quienes somos”
+
+En el archivo contactanos.html
+Descripción:  En esta seccion con la etiqueta meta agregue una descripcion del contenido de lo que se muestra en la seccion contacto
+"Pagina contactos por este medio puede comunicarse con nosotros via mail"
+
+Palabras clave: En esta sección la etiqueta meta name keywords utilice las palabras clave
+“Contacto, Comunicacion, mail, sugerencias”
+
+Encabezado: para el encabezado utilicé el texto “contacto”
