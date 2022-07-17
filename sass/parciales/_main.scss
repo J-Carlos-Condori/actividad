@@ -4,22 +4,23 @@
     background-color: map-get($colores,"bgColorMain");
 
     &__titulos {
-        padding: 15px;
+        padding: 8px 0px;
         border: map-get($bordesEstilos, "border");
         border-radius: 3px;
         background-color: map-get($colores, "bgColorTexto");
-        color: #1d1912;
+        color: map-get($colores, "colorFont");
         margin: 1rem 0rem;
     }
     &__parrafo {
+        font-family: 'Anton', sans-serif;
         background-color: map-get($colores,"bgColorTexto");
         border: map-get($bordesEstilos, "border");
         border-radius: 10px;
         color: #1d1912;
         margin-bottom: 1rem;
         padding: 15px 10px;
-        font-size: 12px;
-        line-height: 15px;
+        font-size: 1rem;
+        line-height: 1.2rem;
     }
     
 }

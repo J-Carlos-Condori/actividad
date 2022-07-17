@@ -17,12 +17,24 @@
         transform: scale(1.03);
     }
 
+    a:hover {
+         color: map-get($colores, "bgColorHeader");
+    }
     @keyframes animacionRedes {
         from {
             transform: translateY(-3px);
         }
         to {
             transform: translateY(0px);
+        }
+    }
+
+
+
+    @media(max-width:1200px) {
+        .footer__redes img {
+            height: 30px;
+            margin: 0rem;
         }
     }
 }

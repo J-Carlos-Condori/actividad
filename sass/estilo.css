@@ -3,19 +3,28 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
-a {
+* p {
+  font-family: "Anton", sans-serif;
+}
+* a {
   color: #1d1912;
   text-decoration: none;
 }
 
 @media (max-width: 1200px) {
-  * {
+  header {
     font-size: 1rem !important;
+  }
+  main__titulos {
+    font-size: 0.4rem;
+  }
+  main__parrafo {
+    font-family: "Rubik Mono One", sans-serif;
   }
 }
 .header {
   background-color: #2d3937;
+  height: auto;
 }
 
 .navbar {
@@ -37,6 +46,10 @@ a {
 }
 .navbar .header__logo:hover {
   transform: scale(1.03);
+}
+.navbar .nav-item a {
+  color: #a95100;
+  text-shadow: 4px 3px 3px #000000;
 }
 .navbar .nav-item a:hover {
   color: #efb1a9;
@@ -66,15 +79,88 @@ a {
     border-radius: 90rem;
   }
   .navbar .menu__res {
-    background-color: #efb1a9;
+    background-color: #5a6e60;
   }
   .navbar .nav-item a {
     border-bottom: solid 3px #1d1912;
+    color: #1d1912;
+    text-shadow: none;
   }
   .navbar .nav-item a:hover {
-    color: #1d1912;
+    color: #efb1a9;
     transform: scale(1.03);
   }
+}
+
+.hero {
+  background-image: url("../assets/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+.hero__titulo {
+  font-family: "Rubik Mono One", sans-serif;
+  color: #a95100;
+  font-size: 4.3rem;
+  text-shadow: 4px 3px 3px #000000;
+}
+.hero__parrafo {
+  color: whitesmoke;
+  text-shadow: 4px 3px 3px #000000;
+  font-size: 2.3rem;
+}
+@media (max-width: 1200px) {
+  .hero .hero__titulo {
+    font-size: 2rem;
+  }
+  .hero .hero__parrafo {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 476px) {
+  .hero .hero__titulo {
+    font-size: 1.5rem;
+  }
+  .hero .hero__parrafo {
+    font-size: 0.8rem;
+  }
+}
+
+.main {
+  min-height: calc(100vh - 300px);
+  font-family: "Rubik Mono One", sans-serif;
+  background-color: #99a88c;
+}
+.main__titulos {
+  padding: 8px 0px;
+  border: solid 3px #1d1912;
+  border-radius: 3px;
+  background-color: #5a6e60;
+  color: #1d1912;
+  margin: 1rem 0rem;
+}
+.main__parrafo {
+  font-family: "Anton", sans-serif;
+  background-color: #5a6e60;
+  border: solid 3px #1d1912;
+  border-radius: 10px;
+  color: #1d1912;
+  margin-bottom: 1rem;
+  padding: 15px 10px;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+.inner-button {
+  margin-bottom: 1rem;
+}
+
+.carousel-inner {
+  padding: 0px;
+  border: solid 3px #1d1912;
+  border-radius: 10px;
+  margin-bottom: 1rem;
 }
 
 .card {
@@ -89,51 +175,14 @@ a {
   justify-content: center;
   margin-bottom: 10px;
   padding: 15px;
-  border: solid 3px #1d1912;
   border-radius: 10px;
-  background-color: #5a6e60;
-  color: #1d1912;
 }
 .card .card-body button {
+  font-family: "Anton", sans-serif;
   border: solid 3px #1d1912;
   border-radius: 50px;
   color: #1d1912;
   background-color: #efb1a9;
-}
-
-.main {
-  min-height: calc(100vh - 300px);
-  font-family: "Rubik Mono One", sans-serif;
-  background-color: #99a88c;
-}
-.main__titulos {
-  padding: 15px;
-  border: solid 3px #1d1912;
-  border-radius: 3px;
-  background-color: #5a6e60;
-  color: #1d1912;
-  margin: 1rem 0rem;
-}
-.main__parrafo {
-  background-color: #5a6e60;
-  border: solid 3px #1d1912;
-  border-radius: 10px;
-  color: #1d1912;
-  margin-bottom: 1rem;
-  padding: 15px 10px;
-  font-size: 12px;
-  line-height: 15px;
-}
-
-.button {
-  margin-bottom: 1rem;
-}
-
-.carousel-inner {
-  padding: 0px;
-  border: solid 3px #1d1912;
-  border-radius: 10px;
-  margin-bottom: 1rem;
 }
 
 .inner {
@@ -172,6 +221,9 @@ a {
           animation-duration: 3s;
   transform: scale(1.03);
 }
+.footer a:hover {
+  color: #2d3937;
+}
 @-webkit-keyframes animacionRedes {
   from {
     transform: translateY(-3px);
@@ -186,5 +238,11 @@ a {
   }
   to {
     transform: translateY(0px);
+  }
+}
+@media (max-width: 1200px) {
+  .footer .footer__redes img {
+    height: 30px;
+    margin: 0rem;
   }
 }/*# sourceMappingURL=estilo.css.map */

@@ -1,10 +1,10 @@
 .header {
     background-color: map-get($colores, "bgColorHeader");
+    height: auto;
 }
 
 .navbar{
     padding: 0px;
-    
     &-nav {
         font-family: 'Rubik Mono One', sans-serif;
         
@@ -20,7 +20,12 @@
     .header__logo:hover {
         transform: scale(1.03);
     }
-    
+    .nav-item a{
+        color: map-get($colores, "heroTitulo");
+        text-shadow: 4px 3px 3px #000000;
+    }
+
+
     .nav-item a:hover {
         color: #efb1a9;
         transform: scale(1.03);
@@ -41,13 +46,15 @@
             @include logo;
         }
         .menu__res {
-            background-color: #efb1a9;
+            background-color: map-get($colores, "bgColorTexto");
         }
         .nav-item a {
             border-bottom: $borderColor;
+            color: map-get($colores, "colorFont");
+            text-shadow: none;
         }
         .nav-item a:hover {
-            color: #1d1912;
+            color: #efb1a9;
             transform: scale(1.03);
         }
     }

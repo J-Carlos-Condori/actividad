@@ -6,14 +6,17 @@
     margin-bottom: 1rem;
     
     .main__subtitulo {
-        @extend .main__titulo;
+        // @extend .main__titulo;
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
         padding: 15px;
         border-radius: 10px;
     }
+
+    
     .card-body button {
+        font-family: 'Anton', sans-serif;
         border: map-get($bordesEstilos, "border");
         border-radius: 50px;
         color: map-get($colores, "colorFont");

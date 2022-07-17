@@ -1,0 +1,42 @@
+.hero{
+    background-image: url('../assets/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    &__titulo{
+        font-family: 'Rubik Mono One', sans-serif;
+        color: map-get($colores, "heroTitulo");
+
+        font-size: 4.3rem;
+        text-shadow:4px 3px 3px #000000;
+
+    }
+
+    &__parrafo{
+        color: whitesmoke;
+        text-shadow: 4px 3px 3px #000000;
+        font-size: 2.3rem;
+    }
+
+    @media(max-width:1200px) {
+        .hero__titulo{
+            font-size: 2rem;
+        }
+        .hero__parrafo{
+            font-size: 0.8rem;
+        }
+    }
+
+    @media(max-width:476px) {
+        .hero__titulo{
+            font-size: 1.5rem;
+        }
+        .hero__parrafo{
+            font-size: 0.8rem;
+        }
+    }
+}
+
+
+
