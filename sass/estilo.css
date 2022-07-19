@@ -148,6 +148,12 @@
   margin-bottom: 1rem;
 }
 
+.btn {
+  background-color: #5a6e60;
+  color: #1d1912;
+  border: solid 3px #1d1912;
+}
+
 .carousel-inner {
   padding: 0px;
   border: solid 3px #1d1912;
@@ -204,7 +210,7 @@
 
 .footer {
   font-family: "Rubik Mono One", sans-serif;
-  padding: 2rem 0rem;
+  padding: 1rem 0rem;
   background-color: #efb1a9;
 }
 .footer__redes {

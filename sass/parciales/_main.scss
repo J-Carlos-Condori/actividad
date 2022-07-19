@@ -28,6 +28,12 @@
 .inner-button {
     margin-bottom: 1rem;
 }
+.btn{
+    background-color: map-get($colores, "bgColorTexto");
+    color: map-get($colores, "colorFont");
+    border: map-get($bordesEstilos, "border");
+
+}
 
 .carousel{
     &-inner {
