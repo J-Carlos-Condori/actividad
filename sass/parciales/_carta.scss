@@ -1,20 +1,27 @@
 .card {
+    width: 100%;
+    height: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+
     background-color: map-get($colores, "bgColorHeader");
     border: map-get($bordesEstilos, "border");
     border-radius: 15px;
     color: #0c0a08;
-    margin-bottom: 1rem;
     
     .main__subtitulo {
         // @extend .main__titulo;
+        color: map-get($colores, "heroTitulo");
+        text-shadow: 4px 3px 3px #000000;
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
         padding: 15px;
         border-radius: 10px;
     }
-
-    
     .card-body button {
         font-family: 'Anton', sans-serif;
         border: map-get($bordesEstilos, "border");

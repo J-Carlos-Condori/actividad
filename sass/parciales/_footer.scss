@@ -33,8 +33,13 @@
 
     @media(max-width:1200px) {
         .footer__redes img {
-            height: 30px;
+            height: 40px;
             margin: 0rem;
         }
+
+        .footer__texto{
+            font-size: 0.5rem;
+        }
+
     }
 }
